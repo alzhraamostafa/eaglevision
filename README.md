@@ -252,3 +252,9 @@ then update `VIDEO_PATH` in your `.env` file.
 
 [Watch the demo video](https://github.com/alzhraamostafa/eaglevision/raw/main/project_demo.mp4)
 
+
+## Demo
+
+[![EagleVision Demo](https://img.youtube.com/vi/w76unBx5I7Q/0.jpg)](https://youtu.be/w76unBx5I7Q)
+
+> Click the thumbnail to watch the demo on YouTube.
