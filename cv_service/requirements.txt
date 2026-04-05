@@ -1,0 +1,6 @@
+# PyTorch CPU build is installed first in Dockerfile (avoids CUDA wheels)
+ultralytics==8.2.18
+confluent-kafka==2.4.0
+opencv-python-headless==4.9.0.80
+numpy==1.26.4
+lapx>=0.5.2
