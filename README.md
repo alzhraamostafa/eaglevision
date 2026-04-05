@@ -247,3 +247,8 @@ This project was tested with the **Mendeley earthmoving equipment dataset**:
 
 Download the dataset and place a video in `sample_data/construction_video.mp4`
 then update `VIDEO_PATH` in your `.env` file.
+
+## Demo
+
+[Watch the demo video](https://github.com/alzhraamostafa/eaglevision/raw/main/project_demo.mp4)
+
