@@ -237,3 +237,13 @@ inside `TARGET_CLASSES`.
 docker compose down           # keep volumes (data survives)
 docker compose down -v        # also wipe TimescaleDB + Grafana data
 ```
+
+## Dataset
+
+This project was tested with the **Mendeley earthmoving equipment dataset**:
+> Roberts, D., & Golparvar-Fard, M. (2019). Data for: End-to-end visual detection,
+> tracking and activity analysis of interacting earthmoving equipment.
+> Mendeley Data. https://doi.org/10.17632/fyw6ps2d2j.1
+
+Download the dataset and place a video in `sample_data/construction_video.mp4`
+then update `VIDEO_PATH` in your `.env` file.

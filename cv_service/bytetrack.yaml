@@ -1,0 +1,32 @@
+# ByteTrack configuration for YOLOv8
+# Place this file in the working directory of cv_service
+# Reference: https://docs.ultralytics.com/reference/trackers/byte_tracker/
+
+tracker_type: bytetrack
+
+# Detection confidence threshold to enter the tracked pool
+track_high_thresh: 0.5
+
+# Lower confidence threshold for second matching pass
+track_low_thresh: 0.1
+
+# Minimum detection confidence to create a new track
+new_track_thresh: 0.6
+
+# Number of frames to keep a track alive without a matching detection
+track_buffer: 30
+
+# Minimum number of frames a track must be seen before it is confirmed
+# (reduces false tracks from single-frame noise)
+match_thresh: 0.8
+
+# Minimum box area (pixels²) — filters tiny detections
+min_box_area: 10
+
+# Use GlobalMotionCompensation for moving camera scenarios
+# Set to False for fixed camera (construction site tripod)
+gmc_method: none
+
+# Frame rate of the input video (used for Kalman filter tuning)
+# Will be auto-read from the VideoCapture object but can be overridden
+frame_rate: 25
